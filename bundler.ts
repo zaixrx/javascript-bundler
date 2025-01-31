@@ -2,6 +2,7 @@ import * as acorn from 'acorn';
 import { simple } from 'acorn-walk';
 import * as bable from "@babel/standalone";
 
+// Checkout https://github.com/zaixrx/multicoder-file-browser/blob/main/src/DirectoryTree.ts
 import DirectoryTree, { FileNode } from './directoryTree';
 
 interface Module {
